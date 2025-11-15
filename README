@@ -1,0 +1,7 @@
+README
+
+StratSamp_MODLC_n10000.geojson - Locations of 100,000 random samples, stratified by land cover
+Sample_TimeSeries_GEE.ipynb - Jupyter Notebook which creates the random sample, as well as exports time series at varying spatial resolutions for different MODIS vegetation parameters. Runs online via Earth Engine
+Deseason_Detrend_Resilience.py - Python code to transform those 100,000 samples into resilience estimates via first deseasoning/detrending
+
+Export_Resilience_GEE.ipynb - Export global (or local) estimates of vegetation resilience. Code for the complete deseasoning/detrending procedure, as well as resilience calculation and export to TIF files, included. All code runs online via Earth Engine
